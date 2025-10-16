@@ -1,0 +1,38 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+
+# Node/Next
+node_modules/
+.next/
+dist/
+out/
+.npm/
+.pnp.*
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Env / misc
+.env
+.env.*.local
+*.log
+
+# Docker
+docker-data/
+docker-tmp/
+
+# ОС/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
