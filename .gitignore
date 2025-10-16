@@ -1,30 +1,26 @@
 # Python
-venv/
-__pycache__/
-*.py[cod]
-*.pyo
-.pytest_cache/
-.mypy_cache/
-.coverage
-coverage.xml
+backend/.venv/
+backend/__pycache__/
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ruff_cache/
+backend/.coverage
+backend/coverage.xml
 
-# Node/Next
-node_modules/
-.next/
-dist/
-out/
-.npm/
-.pnp.*
-.yarn/*
-!.yarn/releases
-!.yarn/plugins
-!.yarn/sdks
-!.yarn/versions
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.eslintcache
+
+# Build artifacts in backend from Vite
+backend/app/static/web/
 
 # Env / misc
 .env
 .env.*.local
 *.log
+venv
 
 # Docker
 docker-data/
