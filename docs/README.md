@@ -1,29 +1,7 @@
-# cd-saas
+# Документация
 
-SaaS Coffee Digital — управление кофемашинами, OTA и телеметрия.
+В этом каталоге:
 
-## Архитектура
-
-- **API** — FastAPI (Python)
-- **Frontend** — Next.js (React + Tailwind)
-- **База** — Postgres / TimescaleDB
-- **Кэш** — Redis
-- **Хранилище артефактов** — MinIO (S3)
-- **MQTT Bridge** — вход телеметрии ↔ облако
-- **Signer/PKI** — подпись прошивок и RPK
-
-## Локальный запуск
-
-```bash
-docker compose up -d
-# API: http://localhost:8000
-# Web: http://localhost:3000
-```
-
-## Основные модули
-
-- Device Registry
-- OTA Registry (версии core/driver/rpk)
-- Telemetry Ingest
-- Command Orchestrator
-- Service Console (RMA и диагностика)
+- `architecture.md` — архитектура модуля, диаграммы, взаимодействия
+- `readme.md` — это описание каталога
+- дополнительные материалы (`*.drawio`, `*.svg`, `*.png`) при необходимости
